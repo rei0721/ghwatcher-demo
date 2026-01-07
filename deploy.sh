@@ -2,8 +2,8 @@
 set -e
 
 # Configuration
-IMAGE_NAME="rei0721-runner"
-CONTAINER_NAME="ghwatcher"
+IMAGE_NAME="rei0721-server"
+CONTAINER_NAME="rei0721-server"
 PORT_MAPPING="9900-9999:9900-9999"
 VOLUME_MAPPING="/root/.rei0721:/app"
 
